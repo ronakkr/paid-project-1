@@ -33,6 +33,12 @@ p {
   font-size: 16px;
   font-family: var(--font1);
 }
+
+button {
+  background-color: #f3dede;
+  border-radius: 100px;
+  padding: 5px 24px;
+}
 .hero {
   background-color: #191919;
   max-width: 100%;
@@ -73,11 +79,7 @@ p {
   width: 0.5px;
   margin-left: 89px;
 }
-.groupone {
-  display: flex;
-  justify-items: center;
-  margin-bottom: 18px;
-}
+
 .main_container {
   margin-top: 217px;
   margin-left: 110px;
@@ -88,12 +90,7 @@ p {
   margin-top: 28px;
   margin-bottom: 23px;
 }
-.secondbutton {
-  background-color: #f3dede;
-  border-radius: 100px;
-  width: 180px;
-  height: 50px;
-}
+
 .black {
   color: black;
   font-size: 18px;
@@ -103,4 +100,17 @@ p {
   font-size: 20px;
   font-weight: bold;
   color: black;
+}
+
+.user_details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.user_details p {
+  font-weight: bold;
+}
+
+.user_image {
 }
