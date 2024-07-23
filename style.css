@@ -9,6 +9,7 @@
 }
 body {
   max-width: 100%;
+  background-color: black;
 }
 
 h1 {
@@ -50,7 +51,7 @@ p {
   font-size: 18px;
 }
 .bold {
-  font-weight: bold;
+  font-weight: 900;
 }
 .IN {
   background-color: #f3dede;
@@ -72,6 +73,7 @@ p {
   gap: 20px;
   display: grid;
   justify-items: center;
+  margin-bottom: 154px;
 }
 .line {
   background-color: #f3dede;
@@ -89,17 +91,18 @@ p {
   font-weight: bold;
   margin-top: 28px;
   margin-bottom: 23px;
+  color: white;
 }
 
-.black {
+.get {
   color: black;
   font-size: 18px;
   font-weight: bold;
 }
 .in {
-  font-size: 20px;
-  font-weight: bold;
-  color: black;
+  width: 50px;
+  height: 50px;
+  display: flex;
 }
 
 .user_details {
@@ -110,7 +113,121 @@ p {
 
 .user_details p {
   font-weight: bold;
+  color: white;
 }
-
-.user_image {
+.top {
+  margin-left: 900px;
+  position: relative;
+  bottom: 150px;
+  font-weight: bold;
+}
+.menu {
+  color: white;
+}
+.white {
+  color: white;
+  display: flex;
+}
+.laptop_img {
+  margin-top: 140px;
+  margin-left: 80px;
+  margin-bottom: 140px;
+}
+.second_section {
+  display: flex;
+}
+.second_heading {
+  margin-left: 115px;
+  margin-top: 310px;
+}
+.laptop_para {
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+.third_section {
+  height: 1395px;
+  background-color: #191919;
+}
+.third_heading {
+  margin-top: 121px;
+  margin-bottom: 51px;
+  color: white;
+  display: grid;
+  justify-content: center;
+}
+.first_third {
+  width: 1280px;
+  margin-bottom: 26px;
+  background-color: black;
+  border-radius: 20px;
+  border: #f3dede 1px solid;
+  display: grid;
+  justify-content: center;
+}
+.mathsbutton {
+  margin-top: 45px;
+}
+.grid {
+  display: grid;
+  justify-content: center;
+}
+.pink {
+  color: #f3dede;
+}
+.fouth_heading {
+  margin-top: 120px;
+  margin-left: 591px;
+}
+.forth_section {
+  display: grid;
+  justify-content: center;
+}
+.flex {
+  display: flex;
+}
+.arrow_left {
+  margin-left: 330px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.arrow_right {
+  margin-top: 10px;
+}
+.main_container_group_four {
+  width: 1280px;
+  margin-top: 26px;
+  background-color: black;
+  border-radius: 20px;
+  border: #f3dede 1px solid;
+  height: 727px;
+  background-color: #191919;
+  padding: 50px;
+  display: flex;
+}
+.E-comm {
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #f3dede;
+}
+.paragraphone {
+  margin-top: 24px;
+  margin-bottom: 30px;
+}
+li {
+  font-size: 16px;
+  color: white;
+}
+.right {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.tech {
+  color: white;
+  margin-top: 24px;
+  margin-bottom: 5px;
+}
+.bol {
+  font-weight: 900;
+  margin-left: 20px;
+  font-size: 18px;
 }
