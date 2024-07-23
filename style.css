@@ -51,7 +51,7 @@ p {
   font-size: 18px;
 }
 .bold {
-  font-weight: 900;
+  font-weight: bolder;
 }
 .IN {
   background-color: #f3dede;
@@ -98,6 +98,7 @@ p {
   color: black;
   font-size: 18px;
   font-weight: bold;
+  ma
 }
 .in {
   width: 50px;
@@ -147,6 +148,7 @@ p {
 .third_section {
   height: 1395px;
   background-color: #191919;
+  padding: 0px 67px;
 }
 .third_heading {
   margin-top: 121px;
@@ -155,17 +157,16 @@ p {
   display: grid;
   justify-content: center;
 }
-.first_third {
+.black_container {
   width: 1280px;
   margin-bottom: 26px;
   background-color: black;
   border-radius: 20px;
   border: #f3dede 1px solid;
   display: grid;
-  justify-content: center;
-}
-.mathsbutton {
-  margin-top: 45px;
+  justify-items: center;
+  gap: 20px;
+  padding: 45px;
 }
 .grid {
   display: grid;
@@ -230,4 +231,59 @@ li {
   font-weight: 900;
   margin-left: 20px;
   font-size: 18px;
+}
+.my_sk {
+  margin-top: 115px;
+  margin-bottom: 50px;
+  color: white;
+  margin-left: 170px;
+}
+.my_skills {
+  display: grid;
+  justify-content: center;
+}
+.centre {
+  gap: 20px;
+  display: grid;
+  justify-items: center;
+  margin-bottom: 40px;
+}
+footer {
+  height: 892px;
+  background-color: #191919;
+  margin-top: 130px;
+  border-bottom: #f3dede solid 12px;
+  padding: 140px 80px;
+  display: flex;
+}
+.right_section {
+  padding: 186px 115px;
+}
+
+.mar {
+  margin: 36px 0px;
+}
+.bo {
+  color: white;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+.patten {
+  position: relative;
+  left: 600px;
+  bottom: 450px;
+}
+.hello {
+  margin-left: 10px;
+}
+.tee{
+  width: 180px;
+  height: 50px;
+  margin-top: 64px;
+  margin-left: 550px;
+  color: black;
+}
+.te{
+  color: black;
 }
