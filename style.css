@@ -1,3 +1,7 @@
+:root {
+  font1: "Roboto";
+  font2: "Roboto";
+}
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +9,29 @@
 }
 body {
   max-width: 100%;
+}
+
+h1 {
+  font-size: 85px;
+  font-family: var(--font1);
+}
+h2 {
+  font-size: 48px;
+  font-family: var(--font2);
+}
+h3 {
+  font-size: 24px;
+  font-family: var(--font1);
+}
+
+h4 {
+  font-size: 18px;
+  font-family: var(--font2);
+}
+
+p {
+  font-size: 16px;
+  font-family: var(--font1);
 }
 .hero {
   background-color: #191919;
@@ -51,7 +78,7 @@ p {
   justify-items: center;
   margin-bottom: 18px;
 }
-.maincontain {
+.main_container {
   margin-top: 217px;
   margin-left: 110px;
 }
