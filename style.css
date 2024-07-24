@@ -230,6 +230,23 @@ button {
   text-align: center;
 }
 
+.project_section {
+  .top_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .arrows {
+    margin-top: 50px;
+    display: flex;
+    position: absolute;
+    top: 10;
+    right: 0;
+  }
+}
+
 .line {
   background-color: #f3dede;
   height: 700px;
