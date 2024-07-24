@@ -62,7 +62,8 @@ a {
 }
 
 li {
-  list-style: none;
+  line-height: 28px;
+  margin-left: 16px;
 }
 
 button {
@@ -89,7 +90,10 @@ button {
   background-image: url("image/bg-image.png");
   background-repeat: no-repeat;
   background-position: right;
-
+  li {
+    list-style: none;
+    line-height: 28px;
+  }
   nav {
     width: 277px;
     display: flex;
@@ -245,6 +249,32 @@ button {
     top: 10;
     right: 0;
   }
+  .project_card {
+    background-color: black;
+    border-radius: 20px;
+    border: #f3dede 1px solid;
+    height: 727px;
+    background-color: #191919;
+    padding: 50px;
+    display: flex;
+
+    p {
+      padding-top: 24px;
+    }
+
+    h3 {
+      padding-bottom: 8px;
+      padding-top: 24px;
+    }
+    .title_container {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .title {
+      padding-top: 0;
+    }
+  }
 }
 
 .line {
@@ -324,17 +354,7 @@ button {
 .arrow_right {
   margin-top: 10px;
 }
-.main_container_group_four {
-  width: 1280px;
-  margin-top: 26px;
-  background-color: black;
-  border-radius: 20px;
-  border: #f3dede 1px solid;
-  height: 727px;
-  background-color: #191919;
-  padding: 50px;
-  display: flex;
-}
+
 .E-comm {
   margin-left: 20px;
   margin-top: 10px;
