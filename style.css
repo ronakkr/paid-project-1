@@ -101,12 +101,11 @@ button {
   }
 
   .menu {
-    margin-top: 138px;
-    margin-left: 98px;
+    padding: 138px 98px;
     gap: 20px;
     display: grid;
     justify-items: center;
-    margin-bottom: 154px;
+    border-right: 1px solid var(--primary-color);
   }
 }
 
