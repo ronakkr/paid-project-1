@@ -296,6 +296,8 @@ footer {
   background-color: #191919;
   margin-top: 130px;
   border-bottom: #f3dede solid 12px;
+}
+.footer {
   padding: 140px 80px;
   display: flex;
   gap: 115px;
