@@ -122,10 +122,16 @@ button {
     right: 110px;
     top: 58px;
   }
+  .user_section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
   .user-details {
     display: flex;
     align-items: center;
     gap: 16px;
+
     margin-left: 16px;
     h4 {
       font-family: var(--secondary-font);
@@ -277,127 +283,15 @@ button {
   }
 }
 
-.line {
-  background-color: #f3dede;
-  height: 700px;
-  width: 0.5px;
-  margin-left: 89px;
+.skill_section {
+  .skill_card {
+    gap: 20px;
+    display: grid;
+    justify-items: center;
+    margin-bottom: 40px;
+  }
 }
 
-.in {
-  width: 50px;
-  height: 50px;
-  display: flex;
-}
-
-.user_details {
-  display: flex;
-  align-items: center;
-  margin-bottom: 18px;
-}
-
-.user_details p {
-  font-weight: bold;
-  color: white;
-}
-.top {
-  margin-left: 900px;
-  position: relative;
-  bottom: 150px;
-  font-weight: bold;
-}
-.menu {
-  color: white;
-}
-.white {
-  color: white;
-  display: flex;
-}
-
-.second_section {
-  display: flex;
-}
-.second_heading {
-  margin-left: 115px;
-  margin-top: 310px;
-}
-.laptop_para {
-  margin-top: 30px;
-  margin-bottom: 45px;
-}
-
-.heading {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: white;
-}
-
-.pink {
-  color: #f3dede;
-}
-.fouth_heading {
-  margin-top: 120px;
-  margin-left: 591px;
-}
-.forth_section {
-  display: grid;
-  justify-content: center;
-}
-.flex {
-  display: flex;
-}
-.arrow_left {
-  margin-left: 330px;
-  margin-right: 20px;
-  margin-top: 10px;
-}
-.arrow_right {
-  margin-top: 10px;
-}
-
-.E-comm {
-  margin-left: 20px;
-  margin-top: 10px;
-  color: #f3dede;
-}
-.paragraphone {
-  margin-top: 24px;
-  margin-bottom: 30px;
-}
-li {
-  font-size: 16px;
-  color: white;
-}
-.right {
-  margin-left: 40px;
-  margin-top: 20px;
-}
-.tech {
-  color: white;
-  margin-top: 24px;
-  margin-bottom: 5px;
-}
-.bol {
-  font-weight: 900;
-  margin-left: 20px;
-  font-size: 18px;
-}
-.my_sk {
-  margin-top: 115px;
-  margin-bottom: 50px;
-  color: white;
-  margin-left: 170px;
-}
-.my_skills {
-  display: grid;
-  justify-content: center;
-}
-.centre {
-  gap: 20px;
-  display: grid;
-  justify-items: center;
-  margin-bottom: 40px;
-}
 footer {
   height: 892px;
   background-color: #191919;
@@ -405,35 +299,18 @@ footer {
   border-bottom: #f3dede solid 12px;
   padding: 140px 80px;
   display: flex;
-}
-.right_section {
-  padding: 186px 115px;
-}
+  gap: 115px;
+  align-items: center;
 
-.mar {
-  margin: 36px 0px;
+  h2 {
+    margin-bottom: 32px;
+  }
+  p {
+    margin-bottom: 36px;
+  }
 }
-.bo {
-  color: white;
-  font-weight: bold;
-  margin-left: 20px;
-  margin-top: 8px;
-}
-.patten {
-  position: relative;
-  left: 600px;
-  bottom: 450px;
-}
-.hello {
-  margin-left: 10px;
-}
-.tee {
-  width: 180px;
-  height: 50px;
-  margin-top: 64px;
-  margin-left: 550px;
-  color: black;
-}
-.te {
-  color: black;
+.hstack {
+  display: flex;
+  gap: 16px;
+  align-items: center;
 }
